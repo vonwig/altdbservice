@@ -1,4 +1,4 @@
-FROM node:12-buster
+FROM node:current-buster-slim
 
 COPY /package*.json /
 
